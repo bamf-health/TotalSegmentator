@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name='TotalSegmentator',
+setup(name='BamfTotalSegmentator',
         version='1.5.2',
         description='Robust segmentation of 104 classes in CT images.',
         long_description="See Readme.md on github for more details.",

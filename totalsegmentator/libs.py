@@ -157,6 +157,9 @@ def download_pretrained_weights(task_id):
         if (config_dir / old_weight).exists():
             shutil.rmtree(config_dir / old_weight)
 
+    if weights_path.exists():
+        print(f"pretrained weights for Task {task_id} available. Skipping download...")
+
     if WEIGHTS_URL is not None and not weights_path.exists():
         print(f"Downloading pretrained weights for Task {task_id} (~230MB) ...")
 

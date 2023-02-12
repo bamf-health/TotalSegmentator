@@ -36,6 +36,6 @@ setup(name='BamfTotalSegmentator',
             'Operating System :: MacOS'
         ],
         scripts=[
-            'bin/TotalSegmentator', 'bin/totalseg_combine_masks'
+            'bin/BamfTotalSegmentator', 'bin/bamf_totalseg_combine_masks'
         ]
     )

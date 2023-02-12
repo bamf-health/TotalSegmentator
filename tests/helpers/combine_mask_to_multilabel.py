@@ -4,7 +4,7 @@ import numpy as np
 import nibabel as nib
 
 
-base = Path("/home/jakob/dev/TotalSegmentator/tests/reference_files")
+base = Path("/home/jakob/dev/BamfTotalSegmentator/tests/reference_files")
 
 img_1 = nib.load(base / "example_seg" / "lung_vessels.nii.gz")
 img_2 = nib.load(base / "example_seg" / "lung_trachea_bronchia.nii.gz")

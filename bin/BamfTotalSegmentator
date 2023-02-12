@@ -84,7 +84,7 @@ def main():
                         help="Only needed for unittesting.",
                         default=0)
 
-    parser.add_argument('--version', action='version', version=require("TotalSegmentator")[0].version)
+    parser.add_argument('--version', action='version', version=require("BamfTotalSegmentator")[0].version)
 
     args = parser.parse_args()
 
